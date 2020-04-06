@@ -49,3 +49,44 @@ Text Domain:  accelerate-theme-child
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+/* case study page styles */
+
+aside.case-study-sidebar {
+  float: left;
+  width: 300px;
+}
+
+.case-study-images {
+  float: left;
+  width: 600px;
+  margin-left: 50px;
+}
+
+ .case-study-sidebar h2 {
+   font: 600 25px/1.6 'Open Sans', Arial, sans-serif;
+   color: #3b3b3b;
+}
+
+ .case-study-sidebar h4 {
+    margin: 1.2em 0 .5em;
+    font: 300 14px/.9 'Open Sans', Arial, sans-serif;
+    color: #878787;
+}
+
+.case-study-sidebar h4 span {
+   color: #3b3b3b;
+}
+
+.case-study-sidebar p {
+  margin: 2em 0;
+
+}
+
+p.read-more-link   {
+  font-size: 15px;
+}
+
+.case-study-images img {
+  margin-top: 30px;
+}
