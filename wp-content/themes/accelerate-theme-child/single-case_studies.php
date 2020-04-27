@@ -34,11 +34,11 @@ get_header(); ?>
 
 						<h2><?php the_title(); ?></h2>
 						<h4><?php echo $services; ?></h4>
-						<h4><span><?php echo $client; ?></span></h4>
+						<h4>Client:<span><?php echo $client; ?></span></h4>
 
 						<?php the_content(); ?>
 
-						<p><strong><a href="<?php echo $site_link; ?>">Site Link</a></strong></p>
+						<p><strong><a href="<?php echo $site_link; ?>">Visit Live Site &rsaquo;</a></strong></p>
 
 				</aside>
 

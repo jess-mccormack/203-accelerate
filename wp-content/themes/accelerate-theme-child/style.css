@@ -14,6 +14,9 @@ Text Domain:  accelerate-theme-child
   background: none repeat scroll 0 0 #45ac9d;
 }
 
+
+/* homepage  */
+
 .home-page {
     background: url("img/taxi.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -22,24 +25,40 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 
+.featured-work h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.featured-work li {
+    display: inline;
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.featured-work li p {
+    font-size: .85em;
+}
+
 /* blog post styles */
 
 .blog-post {
   width: 50%;
   float: left;
   margin-bottom: 2em;
-
 }
 
 .blog-post h4 {
-  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font: 700 .85em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
   margin: .5em 0 .5em;
 }
 
 .blog-post h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-transform: capitalize;
 }
 
@@ -54,23 +73,24 @@ Text Domain:  accelerate-theme-child
 
 aside.case-study-sidebar {
   float: left;
-  width: 300px;
+  width: 350px;
 }
 
 .case-study-images {
   float: left;
-  width: 600px;
+  width: 550px;
   margin-left: 50px;
 }
 
  .case-study-sidebar h2 {
-   font: 600 25px/1.6 'Open Sans', Arial, sans-serif;
+   font: 500 1.6em 'Open Sans', Arial, sans-serif;
    color: #3b3b3b;
+   margin: 4em 0 0 0;
 }
 
  .case-study-sidebar h4 {
-    margin: 1.2em 0 .5em;
-    font: 300 14px/.9 'Open Sans', Arial, sans-serif;
+    margin: .5em 0;
+    font: 300 .8em 'Open Sans', Arial, sans-serif;
     color: #878787;
 }
 
@@ -80,13 +100,42 @@ aside.case-study-sidebar {
 
 .case-study-sidebar p {
   margin: 2em 0;
-
+  font: 300 .95em 'Open Sans', Arial, sans-serif;
+  line-height: 1.7em;
 }
 
-p.read-more-link   {
-  font-size: 15px;
+.case-study-sidebar a  {
+  font-size: .9em;
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
 }
 
 .case-study-images img {
   margin-top: 30px;
+  width: 100%;
+}
+
+/* footer styles */
+
+
+.site-footer {
+    padding-top: 1em;
+}
+
+.social-media-navigation li {
+    list-style: none;
+    border-radius: 50%;
+    background-color: black;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    padding-top: 2px;
+    float: right;
+    margin: 5px;
+}
+
+.social-media-navigation a {
+    color: white;
 }
