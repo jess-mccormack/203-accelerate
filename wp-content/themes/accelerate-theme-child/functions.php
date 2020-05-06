@@ -28,11 +28,11 @@ function create_custom_post_types() {
 								'name' => __( 'Case Studies' ),
 								'singular_name' => __( 'Case Study' )
 							),
-						'capability_type' => 'post',
 						'public' => true,
 						'has_archive' => true,
 						'rewrite' => array(
 								'slug' => 'case-studies'
+						'show_in_rest' => true,
 								),
 						)
 				);
