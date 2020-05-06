@@ -30,6 +30,8 @@ function create_custom_post_types() {
 							),
 				 		'public' => true,
 						'has_archive' => true,
+						'capability_type' => 'post',
+						'show_in_menu' => 'case-studies'
 						'rewrite' => array(
 								'slug' => 'case-studies'
 								),
