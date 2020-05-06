@@ -32,7 +32,6 @@ function create_custom_post_types() {
 						'has_archive' => true,
 						'rewrite' => array(
 								'slug' => 'case-studies'
-						'show_in_rest' => true,
 								),
 						)
 				);
