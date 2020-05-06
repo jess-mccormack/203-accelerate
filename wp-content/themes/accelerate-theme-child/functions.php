@@ -29,7 +29,6 @@ function create_custom_post_types() {
 								'singular_name' => __( 'Case Study' )
 							),
 				 		'public' => true,
-						'show_in_menu' => true,
 						'has_archive' => true,
 						'rewrite' => array(
 								'slug' => 'case-studies'
