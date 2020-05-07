@@ -95,27 +95,59 @@ aside.case-study-sidebar {
 }
 
 .case-study-sidebar h4 span {
-   color: #3b3b3b;
+     color: #3b3b3b;
 }
 
 .case-study-sidebar p {
-  margin: 2em 0;
-  font: 300 .95em 'Open Sans', Arial, sans-serif;
-  line-height: 1.7em;
+    margin: 2em 0;
+    font: 300 .95em 'Open Sans', Arial, sans-serif;
+    line-height: 1.7em;
 }
 
 .case-study-sidebar a  {
-  font-size: .9em;
-  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
-  font-weight: 700;
-  color: #45ac9d;
-  text-transform: uppercase;
+    font-size: .9em;
+    font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #45ac9d;
+    text-transform: uppercase;
 }
 
 .case-study-images img {
-  margin-top: 30px;
-  width: 100%;
+    margin-top: 30px;
+    width: 100%;
 }
+
+/* contact us page styles */
+
+.contact-us .site-content {
+    width: 715px;
+}
+
+.contact-us .site-content h2 {
+    font-size: 25pt;
+}
+
+.contact-us .site-content p {
+    font-size: 13.5pt;
+}
+
+.contact-us .site-content label {
+    font-weight: 500;
+}
+
+
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+    background: #45ac9d !important;
+    float: right;
+}
+
+.field-wrap>div input[type=checkbox], .field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: 206px !important;
+    height: 55px;
+}
+
+
+
 
 /* footer styles */
 
