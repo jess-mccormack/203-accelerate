@@ -35,7 +35,25 @@ function create_custom_post_types() {
 								),
 						)
 				);
+
+		// create a case study custom post type
+		/* register_post_type ('services',
+				array(
+						'labels' => array (
+								'name' => __( 'Services' ),
+								'singular_name' => __( 'Service' )
+							),
+						'public' => true,
+						'has_archive' => true,
+						'rewrite' => array(
+								'slug' => 'services'
+								),
+						)
+				); */
 }
+
+// Hook this custom post type function into the theme
+add_action( 'init', 'create_custom_post_types' );
 
 add_filter( 'body_class','accelerate_child_body_classes' );
 function accelerate_child_body_classes( $classes ) {
@@ -46,6 +64,3 @@ function accelerate_child_body_classes( $classes ) {
    return $classes;
 
 }
-
-// Hook this custom post type function into the theme
-add_action( 'init', 'create_custom_post_types' );

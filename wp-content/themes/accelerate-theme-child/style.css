@@ -146,6 +146,94 @@ aside.case-study-sidebar {
     height: 55px;
 }
 
+/* services page */
+
+.services-hero {
+    background: url("img/taxi.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 280px;
+}
+
+.services-hero h1 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.page-title h2 {
+    font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: #3a3939;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+}
+
+.page-title p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    color: #3a3939;
+    text-align: center;
+    font-size: .95em;
+}
+
+.our-services {
+    display: grid;
+    grid-template-columns: 33.33%, 33.33%, 33.33%;
+    grid-template-rows: 250px;
+    margin: 40px 0;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+
+.service-icon-odd {
+    grid-column: 1/2;
+}
+
+.service-description-odd {
+    grid-column: 2/4;
+    margin-left: 60px;
+}
+
+.service-description-even {
+    grid-column: 1/3;
+    margin-left: 20px;
+}
+
+.service-icon-even {
+    grid-column: 3/4;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+.our-services h1 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #3a3939;
+    font-size: 1.1em;
+}
+
+.our-services p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    color: #3a3939;
+    font-size: .85em;
+}
+
+.contact-callout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.services-button {
+    margin-left: 30px;
+    margin-top: 25px;
+}
 
 
 
